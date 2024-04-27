@@ -1,0 +1,8 @@
+let h = parseFloat(prompt("qual sua altura?"))
+let genero = prompt("qual seu genero?")
+
+if(genero == 'masculino'){
+    console.log(72.7 * h - 58)
+}else if(genero == "feminino"){
+    console.log(62.1 * h - 44.7)
+}
